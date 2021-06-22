@@ -35,7 +35,7 @@ target_names = datasets.load_iris().target_names
 
 
 # #Split the datasets into train/test
-# # X & y train and X& y test
+# # X & y train and X & y test
 iris_X_train, iris_X_test, iris_y_train, iris_y_test = train_test_split(iris_X,iris_y,test_size=0.5,random_state=42,shuffle=True,stratify=iris_y)
 
 @app.route('/')
